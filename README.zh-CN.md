@@ -1,12 +1,12 @@
-# 书库（Library）
+# E-Library 书库（E-Library-Books-Repo）
 
 [EN English](./README.md) | [ZH 中文](./README.zh-CN.md)
 
 此文件夹用于存放实际的电子书文件（PDF/EPUB/MOBI/AZW 等）。
 
-- 主仓库 [**E-Library**](https://github.com/TiiJeiJ8/E-Library) 中的 `books/` 仅作为索引/目录视图（按作者/类别/主题）。
+- 主仓库 [**E-Library**](https://github.com/TiiJeiJ8/E-Library/README.zh-CN.md) 中的 `books/` 仅作为索引/目录视图（按作者/类别/主题）。
 - 请将所有二进制书籍文件放在本仓库的 `library/` 下，并使用清晰的子目录结构（如 作者/书名/年份）。
-- 文档（摘要、阅读笔记）存放在主仓库 [**E-Library**](https://github.com/TiiJeiJ8/E-Library) 中的 `docs/`，并由 `books/` 索引页面链接到相应条目。
+- 文档（摘要、阅读笔记）存放在主仓库 [**E-Library**](https://github.com/TiiJeiJ8/E-Library/README.zh-CN.md) 中的 `docs/`，并由 `books/` 索引页面链接到相应条目。
 
 ## 推荐结构
 
