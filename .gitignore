@@ -1,0 +1,30 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Temporary Files
+*.tmp
+*.temp
+*~
+.*.swp
+.*.swo
+
+# Archive extraction directories
+__MACOSX/
+
+# Download incomplete files
+*.part
+*.crdownload
+
+# Backup files
+*.bak
+*.backup
+
+# Logs
+*.log
