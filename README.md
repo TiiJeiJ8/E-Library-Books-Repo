@@ -20,6 +20,16 @@ library/
       AuthorLastName_BookTitle_Year.en.epub
       AuthorLastName_BookTitle_YYYY.<language>.ext
 ```
+If a file is too large to upload directly via the web, you can try splitting it into multiple parts (we recommend using the [tool](https://github.com/TiiJeiJ8/LibSpliter) we created), and name them according to the following structure:
+```
+library/
+  Author-Last-Name-First-Name/
+    Book-Title-YYYY/
+      AuthorLastName_BookTitle_Year-1.cn.pdf
+      AuthorLastName_BookTitle_Year-2.cn.pdf
+      AuthorLastName_BookTitle_Year-3.cn.pdf
+      AuthorLastName_BookTitle_YYYY.<language>-part.ext
+```
 
 ## Notes
 
