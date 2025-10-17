@@ -18,6 +18,16 @@ library/
       AuthorLastName_BookTitle_Year.en.epub
       AuthorLastName_BookTitle_YYYY.<language>.ext
 ```
+如果有文件过大无法直接通过网页上传，可以尝试将文件拆分为多卷 ( 推荐使用我制作的[小工具](https://github.com/TiiJeiJ8/LibSpliter) )，按如下结构命名
+```
+library/
+  Author-Last-Name-First-Name/
+    Book-Title-YYYY/
+      AuthorLastName_BookTitle_Year-1.cn.pdf
+      AuthorLastName_BookTitle_Year-2.cn.pdf
+      AuthorLastName_BookTitle_Year-3.cn.pdf
+      AuthorLastName_BookTitle_YYYY.<language>-section.ext
+```
 
 ## 注意
 
