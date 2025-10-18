@@ -35,3 +35,14 @@ library/
 
 - Do not commit copyrighted materials unless they are public domain, under open licenses, or you have explicit permission.
 - Keep filenames descriptive and consistent with the naming convention.
+
+### CI checks
+
+A GitHub Actions workflow (`.github/workflows/PR_Check.yml`) automatically validates filenames and paths under the repository's `library/` directory on pushes and pull requests that touch `library/**`. The check enforces the repository's naming conventions (expected folder depth, allowed file extensions, and a filename pattern that includes a four‑digit year). If the check fails, the action will mark the run as failed and print which files didn't match.
+
+If you believe a file was flagged in error or need an exception (for special characters, different naming, or large split files), please open an issue or submit a small follow-up commit to rename the files. If you want the maintainers to relax or change the filename rules, describe which characters or patterns to allow and the workflow can be updated.
+
+How to test locally / in a PR
+
+- Create a branch, add or modify one file under `library/`, push and open a pull request targeting `main`.
+- The GitHub Actions run will appear on the PR page; failing step output shows which file(s) violated the rules.
